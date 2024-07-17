@@ -1,0 +1,91 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
+}
+
+nav > h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.li-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style: none;
+  gap: 2.18rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+.srh {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+.crt {
+  width: 2.18rem;
+  height: 2.18rem;
+}
+
+/* Banner PART */
+.bnr-container {
+  display: flex;
+  /* height: ; */
+  gap: 130px;
+}
+.bnr-description {
+  width: 580px;
+  height: 270px;
+  margin-top: 145px;
+}
+.bnr-description > h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.bnr-description > p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0;
+}
+.btn {
+  width: 200px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-radius: 40px;
+  background-color: rgba(224, 44, 109, 1);
+  padding: 10px 0;
+  border: none;
+}
+.brn-img {
+  width: 440px;
+  height: 410px;
+  margin-top: 80px;
+}
+.logo-container {
+  width: 1110px;
+  height: 110px;
+  margin: auto;
+  margin-top: 70px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-image: linear-gradient(C0CCDA) 1; */
+}
+.logo {
+  width: 985px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.under-img {
+  position: absolute;
+  margin-left: 150px;
+}

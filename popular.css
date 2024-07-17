@@ -1,0 +1,42 @@
+.h3-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.popular-item {
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.item {
+  width: 330px;
+  height: 475px;
+  padding: 17px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+}
+.item > h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.description {
+  width: 1110px;
+  height: 270px;
+  margin: 100px 165px;
+  gap: 95px;
+  display: flex;
+  align-items: center;
+}
+.hd-product > h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.hd-product {
+  width: 610px;
+  height: 210px;
+}
+.hd-product > p {
+  margin: 16px 0;
+}
